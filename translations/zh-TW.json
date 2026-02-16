@@ -4,6 +4,7 @@
   
   "nav_home": "首頁",
   "nav_capture": "拍攝",
+  "nav_chatbot": "AI聊天機器人",
   "nav_history": "記錄",
   "nav_info": "資訊",
   
@@ -321,5 +322,11 @@
   "info_diagnosis_title": "AI皮膚診斷官方網站",
   "info_diagnosis_desc": "基於AI的10項皮膚指標分析系統",
   "info_contact_title": "📧 聯絡方式",
-  "info_contact_email_label": "官方信箱:"
+  "info_contact_email_label": "官方信箱:",
+
+    "chatbot": {
+    "title": "AI聊天機器人顧問",
+    "description": "AI皮膚顧問透過關鍵字問答方式提供詳細諮詢。",
+    "cta": "開始AI聊天機器人諮詢"
+  }
 }
