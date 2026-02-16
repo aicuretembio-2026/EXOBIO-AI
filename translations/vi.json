@@ -4,6 +4,7 @@
   
   "nav_home": "Trang chủ",
   "nav_capture": "Chụp ảnh",
+  "nav_chatbot": "Chatbot AI",
   "nav_history": "Lịch sử",
   "nav_info": "Thông tin",
   
@@ -346,5 +347,11 @@
   "info_diagnosis_title": "Trang chẩn đoán da AI chính thức",
   "info_diagnosis_desc": "Hệ thống phân tích 10 chỉ số da dựa trên AI",
   "info_contact_title": "📧 Liên hệ",
-  "info_contact_email_label": "Email chính thức:"
+  "info_contact_email_label": "Email chính thức:",
+
+   "chatbot": {
+    "title": "Tư vấn viên Chatbot AI",
+    "description": "Nhận tư vấn chi tiết qua hỏi đáp từ khóa với tư vấn viên da AI của chúng tôi.",
+    "cta": "Bắt đầu tư vấn Chatbot AI"
+  }
 }
