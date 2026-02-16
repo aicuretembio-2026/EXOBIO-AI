@@ -389,9 +389,9 @@
   "faq_q20": "Can pharmacies or dermatology clinics use it?",
   "faq_a20": "Yes, pharmacies and dermatology clinics nationwide are introducing CURETEMBIO AI Skin Diagnosis service. Customers can immediately receive skin analysis services by scanning a QR code. For partnership inquiries, please contact our official email.",
   
-  "chatbot": {
+  "chatbot": 
     "title": "AI Chatbot Consultant",
     "description": "Get detailed consultation through keyword Q&A with our AI skin consultant.",
     "cta": "Start AI Chatbot Consultation"
-  }
+  
 }
