@@ -3,7 +3,8 @@
   "app_subtitle": "L'IA analyse la santé de votre peau",
   
   "nav_home": "Accueil",
-   "nav_capture": "Capture",
+  "nav_capture": "Capture",
+  "nav_chatbot": "Chatbot IA",
   "capture_subtitle": "Veuillez cadrer votre visage dans le guide pour la capture",
   "nav_history": "Historique",
   "nav_info": "Info",
@@ -586,5 +587,11 @@
   "product_detail": "Détails du Produit",
   "usage_guide": "Guide d'Utilisation",
   "skincare_tips": "Conseils de Soins",
-  "expert_consult_sns": "Vous pouvez également consulter les informations sur les consultations d'experts et les réseaux sociaux officiels d'EXOBIO"
+  "expert_consult_sns": "Vous pouvez également consulter les informations sur les consultations d'experts et les réseaux sociaux officiels d'EXOBIO",
+
+    "chatbot": {
+    "title": "Consultant Chatbot IA",
+    "description": "Obtenez des consultations détaillées via Q&R par mots-clés avec notre consultant en peau IA.",
+    "cta": "Démarrer la consultation Chatbot IA"
+  }
 }
