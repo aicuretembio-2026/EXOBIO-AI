@@ -347,8 +347,8 @@
   "info_diagnosis_desc": "Sistem Analisis 10 Penunjuk Kulit Berasaskan AI",
   "info_contact_title": "📧 Hubungi",
   "info_contact_email_label": "E-mel Rasmi:",
-
-    "chatbot": {
+  
+  "chatbot": {
     "title": "Perunding Chatbot AI",
     "description": "Dapatkan perundingan terperinci melalui soal jawab kata kunci dengan perunding kulit AI kami.",
     "cta": "Mula Perundingan Chatbot AI"
