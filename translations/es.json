@@ -4,6 +4,7 @@
   
   "nav_home": "Inicio",
   "nav_capture": "Capturar",
+  "nav_chatbot": "Chatbot IA",
   "nav_history": "Historial",
   "nav_info": "Información",
   
@@ -345,5 +346,11 @@
   "info_diagnosis_title": "Sitio oficial de diagnóstico de piel con IA",
   "info_diagnosis_desc": "Sistema de análisis de 10 indicadores de piel basado en IA",
   "info_contact_title": "📧 Contacto",
-  "info_contact_email_label": "Correo oficial:"
+  "info_contact_email_label": "Correo oficial:",
+
+    "chatbot": {
+    "title": "Consultor Chatbot IA",
+    "description": "Obtenga consultas detalladas a través de preguntas y respuestas con nuestro consultor de piel IA.",
+    "cta": "Iniciar consulta con Chatbot IA"
+  }
 }
