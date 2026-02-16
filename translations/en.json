@@ -4,6 +4,7 @@
   
   "nav_home": "Home",
   "nav_capture": "Capture",
+  "nav_chatbot": "AI Chatbot",
   "nav_history": "History",
   "nav_info": "Info",
   
@@ -386,5 +387,11 @@
   "faq_q19": "How do I get customer support?",
   "faq_a19": "Contact us via official email (curetembio@gmail.com) and we'll respond within 1-2 business days. Operating hours are weekdays 10:00 AM - 5:00 PM. You can also request expert consultation on the Info page.",
   "faq_q20": "Can pharmacies or dermatology clinics use it?",
-  "faq_a20": "Yes, pharmacies and dermatology clinics nationwide are introducing CURETEMBIO AI Skin Diagnosis service. Customers can immediately receive skin analysis services by scanning a QR code. For partnership inquiries, please contact our official email."
+  "faq_a20": "Yes, pharmacies and dermatology clinics nationwide are introducing CURETEMBIO AI Skin Diagnosis service. Customers can immediately receive skin analysis services by scanning a QR code. For partnership inquiries, please contact our official email.",
+  
+  "chatbot": {
+    "title": "AI Chatbot Consultant",
+    "description": "Get detailed consultation through keyword Q&A with our AI skin consultant.",
+    "cta": "Start AI Chatbot Consultation"
+  }
 }
