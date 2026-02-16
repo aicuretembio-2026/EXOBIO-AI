@@ -347,8 +347,8 @@
   "info_diagnosis_desc": "Sistema de análisis de 10 indicadores de piel basado en IA",
   "info_contact_title": "📧 Contacto",
   "info_contact_email_label": "Correo oficial:",
-
-    "chatbot": {
+  
+  "chatbot": {
     "title": "Consultor Chatbot IA",
     "description": "Obtenga consultas detalladas a través de preguntas y respuestas con nuestro consultor de piel IA.",
     "cta": "Iniciar consulta con Chatbot IA"
