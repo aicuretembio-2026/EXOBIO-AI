@@ -586,10 +586,10 @@
   "image_zoom": "Agrandir",
   "product_detail": "Détails du Produit",
   "usage_guide": "Guide d'Utilisation",
-  "skincare_tips": "Conseils de Soins",
+   "skincare_tips": "Conseils de Soins",
   "expert_consult_sns": "Vous pouvez également consulter les informations sur les consultations d'experts et les réseaux sociaux officiels d'EXOBIO",
-
-    "chatbot": {
+  
+  "chatbot": {
     "title": "Consultant Chatbot IA",
     "description": "Obtenez des consultations détaillées via Q&R par mots-clés avec notre consultant en peau IA.",
     "cta": "Démarrer la consultation Chatbot IA"
