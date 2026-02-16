@@ -30,6 +30,24 @@ async function loadTranslations(lang) {
     }
 }
 
+// 중첩된 키 처리 (예: "chatbot.title")
+function getNestedTranslation(key) {
+    // 점(.)으로 구분된 키를 배열로 분리
+    const keys = key.split('.');
+    let value = translations;
+    
+    // 중첩된 객체 탐색
+    for (const k of keys) {
+        if (value && typeof value === 'object' && k in value) {
+            value = value[k];
+        } else {
+            return null;
+        }
+    }
+    
+    return value;
+}
+
 // 페이지 텍스트 업데이트
 function updatePageText() {
     let count = 0;
@@ -37,11 +55,13 @@ function updatePageText() {
     // data-i18n 속성을 가진 모든 요소 찾기
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
-        if (translations[key]) {
+        const value = getNestedTranslation(key);
+        
+        if (value) {
             if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
-                element.placeholder = translations[key];
+                element.placeholder = value;
             } else {
-                element.textContent = translations[key];
+                element.textContent = value;
             }
             count++;
         }
@@ -50,8 +70,10 @@ function updatePageText() {
     // data-i18n-html 속성 처리 (HTML 렌더링 지원)
     document.querySelectorAll('[data-i18n-html]').forEach(element => {
         const key = element.getAttribute('data-i18n-html');
-        if (translations[key]) {
-            element.innerHTML = translations[key];
+        const value = getNestedTranslation(key);
+        
+        if (value) {
+            element.innerHTML = value;
             count++;
         }
     });
@@ -59,8 +81,10 @@ function updatePageText() {
     // data-i18n-placeholder 속성 처리
     document.querySelectorAll('[data-i18n-placeholder]').forEach(element => {
         const key = element.getAttribute('data-i18n-placeholder');
-        if (translations[key]) {
-            element.placeholder = translations[key];
+        const value = getNestedTranslation(key);
+        
+        if (value) {
+            element.placeholder = value;
             count++;
         }
     });
@@ -70,7 +94,7 @@ function updatePageText() {
 
 // 번역 키 가져오기
 function t(key) {
-    return translations[key] || key;
+    return getNestedTranslation(key) || key;
 }
 
 // 언어 변경
