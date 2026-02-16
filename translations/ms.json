@@ -4,6 +4,7 @@
   
   "nav_home": "Laman Utama",
   "nav_capture": "Ambil Foto",
+  "nav_chatbot": "Chatbot AI",
   "nav_history": "Sejarah",
   "nav_info": "Maklumat",
   
@@ -345,5 +346,11 @@
   "info_diagnosis_title": "Laman Diagnosis Kulit AI Rasmi",
   "info_diagnosis_desc": "Sistem Analisis 10 Penunjuk Kulit Berasaskan AI",
   "info_contact_title": "📧 Hubungi",
-  "info_contact_email_label": "E-mel Rasmi:"
+  "info_contact_email_label": "E-mel Rasmi:",
+
+    "chatbot": {
+    "title": "Perunding Chatbot AI",
+    "description": "Dapatkan perundingan terperinci melalui soal jawab kata kunci dengan perunding kulit AI kami.",
+    "cta": "Mula Perundingan Chatbot AI"
+  }
 }
