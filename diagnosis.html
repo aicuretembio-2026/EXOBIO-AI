@@ -1305,18 +1305,29 @@
     <!-- 🔒 [v10.1] 교육 블록 로더 (v20.0까지 비활성화) -->
     <script src="js/education-loader.js?v=20260130-FINAL-I18N"></script>
     
-    <!-- 🆕🆕 [v10.1] 제품 로더 -->
+     <!-- 🆕🆕 [v10.1] 제품 로더 -->
     <script src="js/product-loader.js?v=20260130-FINAL-I18N"></script>
     
-    <!-- [v10.1 HOTFIX] 스마트 제품 추천 시스템 -->
-    <script src="js/analysis-v10.js?v=20260203-RECOMMENDATION-V25.1"></script>
+    <!-- 얼굴 감지 라이브러리 (v11.0에서 나이+성별 감지 필요) -->
+    <script src="https://cdn.jsdelivr.net/npm/@vladmandic/face-api/dist/face-api.min.js"></script>
+    
+    <!-- ==========================================
+         🔴 [v10.1 HOTFIX] 기존 시스템 (백업용)
+         문제 발생 시 주석 해제하여 복구 가능
+         ========================================== -->
+    <!-- <script src="js/analysis-v10.js?v=20260203-RECOMMENDATION-V25.1"></script> -->
+    
+    <!-- ==========================================
+         🆕 [v11.0 + v22.0] 신규 시스템 (2026-02-17)
+         - 과학적 나이 기반 점수 시스템
+         - 2개 제품 추천 시스템
+         ========================================== -->
+    <script src="js/analysis-v11.js?v=20260217"></script>
+    <script src="js/recommendation-v22.js?v=20260217"></script>
     
     <script src="js/app.js?v=20260130-FINAL-I18N"></script>
     <script src="js/online-check.js?v=20260130-FINAL-I18N"></script>
     <script src="js/camera-v3.js?v=20260130-FINAL-I18N"></script>
-    
-    <!-- 얼굴 감지 라이브러리 (face-api.js) -->
-    <script src="https://cdn.jsdelivr.net/npm/@vladmandic/face-api/dist/face-api.min.js"></script>
 
 
     <!-- 다국어 시스템 (10개 언어: 한국어, English, 日本語, 中文, ไทย, Tiếng Việt, Indonesia, Melayu, Español, Français) -->
