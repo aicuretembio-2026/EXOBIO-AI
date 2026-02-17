@@ -255,10 +255,10 @@ async function detectFaceWithAge(imageDataUrl) {
     
     const img = await loadImageFromDataUrl(imageDataUrl);
     
-    const detection = await faceapi
+      const detection = await faceapi
         .detectSingleFace(img, new faceapi.TinyFaceDetectorOptions())
-        .withAgeAndGender()
-        .withFaceLandmarks();
+        .withFaceLandmarks()
+        .withAgeAndGender();
     
     if (!detection) {
         return null;
